@@ -41,5 +41,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+	<string>In order to display your heart&apos;s health data in the Heart Rate Tracker</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>In order to communicate with your iOS Health App Heart Rate Tracker would like to access your data</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>In order to update your heart rate information</string>
 </dict>
 </plist>

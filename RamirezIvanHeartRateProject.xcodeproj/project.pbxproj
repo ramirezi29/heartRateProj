@@ -7,21 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4705B7C72264382B00831AB9 /* HeartRateDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4705B7C62264382B00831AB9 /* HeartRateDetailController.swift */; };
+		4705B7CB226466B600831AB9 /* IRButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4705B7CA226466B600831AB9 /* IRButton.swift */; };
+		479EED212266C5390028E856 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479EED1F2266C5390028E856 /* Onboarding.storyboard */; };
 		47ABCBFA226156CE0016C689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ABCBF9226156CE0016C689 /* AppDelegate.swift */; };
-		47ABCBFC226156CE0016C689 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ABCBFB226156CE0016C689 /* ViewController.swift */; };
 		47ABCBFF226156CE0016C689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47ABCBFD226156CE0016C689 /* Main.storyboard */; };
 		47ABCC01226156D40016C689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47ABCC00226156D40016C689 /* Assets.xcassets */; };
 		47ABCC04226156D40016C689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47ABCC02226156D40016C689 /* LaunchScreen.storyboard */; };
+		47ABCC13226158810016C689 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47ABCC12226158810016C689 /* HealthKit.framework */; };
+		47D97C8A226296C100E67F34 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D97C89226296C100E67F34 /* OnboardingVC.swift */; };
+		47D97C8E2262977400E67F34 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D97C8D2262977400E67F34 /* AlertController.swift */; };
+		47D97C902262979300E67F34 /* ColorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D97C8F2262979300E67F34 /* ColorController.swift */; };
+		47D97C9222629B5800E67F34 /* HealthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D97C9122629B5800E67F34 /* HealthController.swift */; };
+		47D97C9422629CF200E67F34 /* HealthKitResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D97C9322629CF200E67F34 /* HealthKitResult.swift */; };
+		47D97C982262C5B200E67F34 /* HeartRateListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D97C972262C5B200E67F34 /* HeartRateListTVC.swift */; };
+		47D97C9A2262C61B00E67F34 /* HeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D97C992262C61B00E67F34 /* HeartRate.swift */; };
+		47D97C9C2262ED9F00E67F34 /* HeartRateTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D97C9B2262ED9F00E67F34 /* HeartRateTVCell.swift */; };
+		47FBCF6C2261983400237C80 /* HeartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FBCF6B2261983400237C80 /* HeartViewModel.swift */; };
+		47FBCF7022619B2300237C80 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FBCF6F22619B2300237C80 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4705B7C62264382B00831AB9 /* HeartRateDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateDetailController.swift; sourceTree = "<group>"; };
+		4705B7CA226466B600831AB9 /* IRButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRButton.swift; sourceTree = "<group>"; };
+		479EED202266C5390028E856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RamirezIvanHeartRateProject/View/Base.lproj/Onboarding.storyboard; sourceTree = "<group>"; };
 		47ABCBF6226156CE0016C689 /* RamirezIvanHeartRateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RamirezIvanHeartRateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47ABCBF9226156CE0016C689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47ABCBFB226156CE0016C689 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		47ABCBFE226156CE0016C689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47ABCC00226156D40016C689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47ABCC03226156D40016C689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47ABCC05226156D40016C689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47ABCC10226158810016C689 /* RamirezIvanHeartRateProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RamirezIvanHeartRateProject.entitlements; sourceTree = "<group>"; };
+		47ABCC12226158810016C689 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		47D97C89226296C100E67F34 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		47D97C8D2262977400E67F34 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		47D97C8F2262979300E67F34 /* ColorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorController.swift; sourceTree = "<group>"; };
+		47D97C9122629B5800E67F34 /* HealthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthController.swift; sourceTree = "<group>"; };
+		47D97C9322629CF200E67F34 /* HealthKitResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitResult.swift; sourceTree = "<group>"; };
+		47D97C972262C5B200E67F34 /* HeartRateListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateListTVC.swift; sourceTree = "<group>"; };
+		47D97C992262C61B00E67F34 /* HeartRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRate.swift; sourceTree = "<group>"; };
+		47D97C9B2262ED9F00E67F34 /* HeartRateTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateTVCell.swift; sourceTree = "<group>"; };
+		47FBCF6B2261983400237C80 /* HeartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartViewModel.swift; sourceTree = "<group>"; };
+		47FBCF6F22619B2300237C80 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +56,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47ABCC13226158810016C689 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		479EED272266ED3D0028E856 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				47FBCF6B2261983400237C80 /* HeartViewModel.swift */,
+			);
+			name = "View Model";
+			path = "View/View Model";
+			sourceTree = "<group>";
+		};
 		47ABCBED226156CE0016C689 = {
 			isa = PBXGroup;
 			children = (
 				47ABCBF8226156CE0016C689 /* RamirezIvanHeartRateProject */,
 				47ABCBF7226156CE0016C689 /* Products */,
+				47ABCC11226158810016C689 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,75 @@
 		47ABCBF8226156CE0016C689 /* RamirezIvanHeartRateProject */ = {
 			isa = PBXGroup;
 			children = (
-				47ABCBF9226156CE0016C689 /* AppDelegate.swift */,
-				47ABCBFB226156CE0016C689 /* ViewController.swift */,
-				47ABCBFD226156CE0016C689 /* Main.storyboard */,
-				47ABCC00226156D40016C689 /* Assets.xcassets */,
-				47ABCC02226156D40016C689 /* LaunchScreen.storyboard */,
-				47ABCC05226156D40016C689 /* Info.plist */,
+				47ABCC10226158810016C689 /* RamirezIvanHeartRateProject.entitlements */,
+				47ABCC0E2261584E0016C689 /* View */,
+				479EED272266ED3D0028E856 /* View Model */,
+				47FBCF6A226197E200237C80 /* Controllers */,
+				47ABCC0D2261582E0016C689 /* Model */,
+				47ABCC0C226158250016C689 /* Utilities */,
+				47ABCC0B2261581B0016C689 /* Resources */,
 			);
 			path = RamirezIvanHeartRateProject;
+			sourceTree = "<group>";
+		};
+		47ABCC0B2261581B0016C689 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47ABCC05226156D40016C689 /* Info.plist */,
+				47ABCC00226156D40016C689 /* Assets.xcassets */,
+				47ABCBF9226156CE0016C689 /* AppDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		47ABCC0C226158250016C689 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				47D97C9122629B5800E67F34 /* HealthController.swift */,
+				47FBCF6F22619B2300237C80 /* Constants.swift */,
+				47D97C8D2262977400E67F34 /* AlertController.swift */,
+				47D97C8F2262979300E67F34 /* ColorController.swift */,
+				47D97C9322629CF200E67F34 /* HealthKitResult.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		47ABCC0D2261582E0016C689 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47D97C992262C61B00E67F34 /* HeartRate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47ABCC0E2261584E0016C689 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				479EED1F2266C5390028E856 /* Onboarding.storyboard */,
+				47ABCBFD226156CE0016C689 /* Main.storyboard */,
+				47ABCC02226156D40016C689 /* LaunchScreen.storyboard */,
+				47D97C9B2262ED9F00E67F34 /* HeartRateTVCell.swift */,
+				4705B7CA226466B600831AB9 /* IRButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47ABCC11226158810016C689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47ABCC12226158810016C689 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47FBCF6A226197E200237C80 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				47D97C89226296C100E67F34 /* OnboardingVC.swift */,
+				47D97C972262C5B200E67F34 /* HeartRateListTVC.swift */,
+				4705B7C62264382B00831AB9 /* HeartRateDetailController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +195,11 @@
 				TargetAttributes = {
 					47ABCBF5226156CE0016C689 = {
 						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,6 +229,7 @@
 				47ABCC04226156D40016C689 /* LaunchScreen.storyboard in Resources */,
 				47ABCC01226156D40016C689 /* Assets.xcassets in Resources */,
 				47ABCBFF226156CE0016C689 /* Main.storyboard in Resources */,
+				479EED212266C5390028E856 /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,14 +240,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47ABCBFC226156CE0016C689 /* ViewController.swift in Sources */,
+				47FBCF6C2261983400237C80 /* HeartViewModel.swift in Sources */,
+				47D97C982262C5B200E67F34 /* HeartRateListTVC.swift in Sources */,
+				47D97C902262979300E67F34 /* ColorController.swift in Sources */,
+				47D97C9222629B5800E67F34 /* HealthController.swift in Sources */,
+				47D97C9C2262ED9F00E67F34 /* HeartRateTVCell.swift in Sources */,
+				4705B7C72264382B00831AB9 /* HeartRateDetailController.swift in Sources */,
+				4705B7CB226466B600831AB9 /* IRButton.swift in Sources */,
+				47D97C9A2262C61B00E67F34 /* HeartRate.swift in Sources */,
+				47D97C8E2262977400E67F34 /* AlertController.swift in Sources */,
 				47ABCBFA226156CE0016C689 /* AppDelegate.swift in Sources */,
+				47D97C8A226296C100E67F34 /* OnboardingVC.swift in Sources */,
+				47FBCF7022619B2300237C80 /* Constants.swift in Sources */,
+				47D97C9422629CF200E67F34 /* HealthKitResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		479EED1F2266C5390028E856 /* Onboarding.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				479EED202266C5390028E856 /* Base */,
+			);
+			name = Onboarding.storyboard;
+			sourceTree = "<group>";
+		};
 		47ABCBFD226156CE0016C689 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,9 +406,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RamirezIvanHeartRateProject/RamirezIvanHeartRateProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L7AYJDAX2C;
-				INFOPLIST_FILE = RamirezIvanHeartRateProject/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/RamirezIvanHeartRateProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,9 +425,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RamirezIvanHeartRateProject/RamirezIvanHeartRateProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L7AYJDAX2C;
-				INFOPLIST_FILE = RamirezIvanHeartRateProject/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/RamirezIvanHeartRateProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

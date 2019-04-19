@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="g7h-nQ-xIp">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--OnboardingVC-->
+        <scene sceneID="Q1V-CV-VW7">
+            <objects>
+                <viewController id="g7h-nQ-xIp" customClass="OnboardingVC" customModule="RamirezIvanHeartRateProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B4u-Fu-dCd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5nk-OV-Gim" customClass="IRButton" customModule="RamirezIvanHeartRateProject" customModuleProvider="target">
+                                <rect key="frame" x="89" y="443" width="223" height="74"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="SpK-mE-vtW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <connections>
+                                    <action selector="authorizeButtonTapped:" destination="g7h-nQ-xIp" eventType="touchUpInside" id="vTD-rr-8Cj"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="a4B-HI-uDx">
+                                <rect key="frame" x="0.0" y="71" width="414" height="92.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aK-eg-SL1">
+                                        <rect key="frame" x="143.5" y="0.0" width="127.5" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WelcomeText" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJo-En-GqU">
+                                        <rect key="frame" x="156.5" y="72" width="101.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wTg-bB-C65" firstAttribute="bottom" secondItem="5nk-OV-Gim" secondAttribute="bottom" constant="345" id="2uN-Hn-dbg"/>
+                            <constraint firstItem="wTg-bB-C65" firstAttribute="trailing" secondItem="5nk-OV-Gim" secondAttribute="trailing" constant="102" id="D0v-wt-iWL"/>
+                            <constraint firstItem="a4B-HI-uDx" firstAttribute="top" secondItem="wTg-bB-C65" secondAttribute="top" constant="27" id="EU5-D1-94D"/>
+                            <constraint firstItem="5nk-OV-Gim" firstAttribute="leading" secondItem="wTg-bB-C65" secondAttribute="leading" constant="89" id="Eev-13-uTO"/>
+                            <constraint firstItem="a4B-HI-uDx" firstAttribute="width" secondItem="B4u-Fu-dCd" secondAttribute="width" id="gB6-J3-MYV"/>
+                            <constraint firstItem="a4B-HI-uDx" firstAttribute="leading" secondItem="wTg-bB-C65" secondAttribute="leading" id="iHC-hz-E5a"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wTg-bB-C65"/>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="X9G-iR-ydx"/>
+                    <connections>
+                        <outlet property="authorizeHKButton" destination="5nk-OV-Gim" id="y86-r7-Of0"/>
+                        <outlet property="instructionLabel" destination="cJo-En-GqU" id="5CA-wG-0ep"/>
+                        <segue destination="Vkj-Ju-53T" kind="show" identifier="heartRateSegue" id="aRD-IR-ODJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LSy-mw-UE5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="623" y="1176"/>
+        </scene>
+        <!--UITableViewController-ZKq-iM-fgh-->
+        <scene sceneID="dbE-t6-0gh">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="UITableViewController-ZKq-iM-fgh" id="Vkj-Ju-53T" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fz6-FV-v2I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1379" y="1176"/>
+        </scene>
+    </scenes>
+</document>
